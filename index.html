@@ -8,6 +8,14 @@
     They start with forward-slash + asterisk 
     and end with back-slash + asterisk.
     */
+  .container {
+    position: relative;
+  }
+  .containerbackround {
+    position: absolute;
+    color: dimgray;
+    z-index: -1;
+  }
   body {
     background-color: cornflowerblue;
   }
@@ -75,12 +83,13 @@
     /* Include bullets in the content flow. */
     /* More info here: http://www.w3schools.com/cssref/pr_list-style-position.asp */
     list-style-position: inside;
-    background-color: aqua;
+    background-color: violet;
   }
 </style>
 
 </head>
 <body>
+  <div class="container"><div class="containerbackround"><a href="https://raw.githubusercontent.com/DuncanMPlate/DuncanMPlate.github.io/main/assests/callOfCthulu.txt"></a></div>
 	<h1>Duncan M Plate</h1>
 	<p>Data Analyst and cat lover. Seeker of adventure and teller of tales. Some taller than I am!</p>
 	<img width="200" src='https://raw.githubusercontent.com/DuncanMPlate/DuncanMPlate.github.io/79d6de74567b25632d35bf68bd6f6cb6bd89ef36/assests/IMG_1314.jpg'>
@@ -91,6 +100,6 @@
 	<li><img width='400' src='https://github.com/DuncanMPlate/DuncanMPlate.github.io/blob/main/assests/CarbonHAPHeatmap.gif?raw=true'></li>
 	<li><img width="400" src='https://github.com/DuncanMPlate/DuncanMPlate.github.io/blob/main/assests/nonCarbonHAPHeatMap.gif?raw=true'></li>
 	</ul>
-</section>
+</div></section>
 </body>
 </html>
